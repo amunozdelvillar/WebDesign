@@ -1,0 +1,163 @@
+body{
+    font-family:"Times New Roman", sans-serif;
+    margin: 0 0 0 0;
+}
+/***** HEADER *****/
+#logo {
+    display: inline;
+    position: relative;
+    left: 170px;
+}
+
+.breadCrumb {
+    position:absolute;
+    top:   10px;
+    right: 100px;
+}
+
+a.breadCrumb:hover {
+    text-decoration: underline;
+}
+
+/***** TOP CONTENT *****/
+ #vacations {
+    margin: 0.5em 0 0.5em 0;
+    padding: 0 0 0 0;
+ }
+/***** FORM *****/
+legend {
+    padding: 1em 0 0 0;
+    margin: 0;
+}
+
+#vacationForm {
+    position: relative;
+    bottom: 15px;
+}
+
+#vacationForm ol {
+    padding: 0 0 0 0;
+}
+
+#vacationForm li {
+    margin: 0.2em 0 0.2em 0;
+}
+
+/*    Placeholder color*/
+#vacationForm input::-webkit-input-placeholder{
+    color:#E800B2;
+}
+
+
+#vacationForm input[type="text"], select {
+    color: #E800B2;
+    background-color: #ffffff;
+}
+
+#listButtons {
+    position:relative;
+    bottom: 60px;
+}
+
+.listButtons ol {
+    text-align: center;
+    margin-right:0px;
+    padding: 0;
+    
+}
+
+.listButtons li {
+    padding: 0.4em 1em 0.4em 1em;
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: 0.95em;
+}
+
+.form {
+    padding: 0.4em 1em 2em 0em;
+    
+}
+
+div li {
+    list-style-type:none;
+}
+
+fieldset {
+    border: 0;
+}
+
+
+
+/***** SPECIFIC *****/
+
+#headerBreak{
+    background-color:#3D002E;
+    height: 30px;
+}
+
+#topContainer{
+    background-image: url("img/bus.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    width:100%;
+    margin: 0 auto;
+}
+
+/***** GENERIC *****/
+
+div.trans-purple {
+    background: rgba(54,0,37,0.5);
+    color: #ffffff;
+    padding: 1em;
+}
+
+.baseText {
+    font-size: 1em;
+}
+
+.textS {
+    font-size: 0.80em;
+}
+
+.textL {
+    font-size: 1.05em;
+}
+
+.textXL {
+    font-size: 1.5em;
+}
+
+.inline {
+    display:inline;
+}
+
+.block {
+    display: block;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.center {
+    width:50%;
+    margin: 0 auto;
+    padding: 0 0 0 10em;
+}
+
+.darkLink {
+    color:#3D002E;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+.lightLink {
+    color:#DE7DBD;
+    font-size: 0.75em;
+}
+
+.purpleText {
+    color: #E800B2;
+    background-color: #ffffff;
+}
