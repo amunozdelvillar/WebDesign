@@ -14,85 +14,73 @@
     <main>
         <div id="topContainer">
             <div class="center inline">
-            <div class="trans-purple inlineBlock">
-                <span class="textL block">Breaking deals from Bangkok.</span>
-                <span class="textXL block">London from THB 36,130</span>
-                <span class="textS block">Economy Class</span>
-            </div>
-            <div id="vacations" class="trans-purple inlineBlock">
-                <fieldset>
-                    <legend>Vacations</legend>
-                    <div id="vacationForm" class="form inlineBlock">
-                        <ol>
-                            <li><input type="text" placeholder="From" /></li>
-                            <li><input type="text" placeholder="To" /></li>
-                            <li><select><option>Departing</option></select><select><option>Returning</option></select></li>
-                            <li>
-                                <select>
-                                    <option>Economy Class</option>
-                                </select>
-                            </li>
-                            <li>
-                                <select>
-                                    <option>1 Adult</option>
-                                </select>
-                                <a class="lightLink" href="#">Travel with Children</a>
-                            </li>
-                            <li><input type="submit" value="Select vacations" /></li>
-                        </ol>
-                    </div>
-                    <div id="listButtons" class="listButtons inlineBlock">
-                        <ol>
-                            <li style="background-color:#FF0072">Vacations</li>
-                            <li style="background-color:#570027"><div>Hotel</div></li>
-                            <li style="background-color:#8F0040"><div>Activities</div></li>
-                            <li style="background-color:#570027"><div>[Car to come]</div></li>
-                        </ol>
-                    </div>
-                </fieldset>
-                <!--<table>-->
-                    <!--<thead>-->
-                        <!--<th colspan="3">Vacations</th>-->
-                    <!--</thead>-->
-                    <!--<tbody>-->
-                        <!--<tr>-->
-                            <!--<td colspan="2"><input type="text" placeholder="From" /></td>-->
-                            <!--<td colspan="1"><div>Vacations</div></td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td colspan="2"><input type="text" placeholder="To" /></td>-->
-                            <!--<td colspan="1"><div>Hotel</div></td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td><input type="text" placeholder="Departing" /></td>-->
-                            <!--<td><input type="text" placeholder="Returning" /></td>-->
-                            <!--<td><div>Activities</div></td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td colspan="2">-->
-                                <!--<select>-->
-                                    <!--<option>Economy Class</option>-->
-                                <!--</select>-->
-                            <!--</td>-->
-                            <!--<td>[Car to come]</td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td>-->
-                                <!--<select>-->
-                                    <!--<option>1 Adult</option>-->
-                                <!--</select>-->
-                            <!--</td>-->
-                            <!--<td><a href="#">Travel with Children</a></td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td colspan="3"><button>Select vacations</button></td>-->
-                        <!--</tr>-->
-                    <!--</tbody>-->
-                <!--</table>-->
-            </div>
+                <div id="firstTextBlock" class="trans-purple inlineBlock">
+                    <span class="textL block">Breaking deals from Bangkok.</span>
+                    <span class="textXL block">London from THB 36,130</span>
+                    <span class="textS block">Economy Class</span>
                 </div>
+                <div id="vacations" class="trans-purple inlineBlock">
+                    <h4>Vacations</h4>
+                    <div id="vacationContainer" class="trans-black">
+                        <div id="vacationForm" class="form inlineBlock">
+                            <ol>
+                                <li><input type="text" placeholder="From" size="20" /></li>
+                                <li><input type="text" placeholder="To" size="20" /></li>
+                                <li>
+                                    <select class="dropdown calendar half-select">
+                                        <option>Departing</option>
+                                    </select>
+                                    <select class="dropdown calendar half-select">
+                                        <option>Returning</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="dropdown full-select">
+                                        <option>Economy Class</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="dropdown half-select">
+                                        <option>1 Adult</option>
+                                    </select>
+                                    <a class="lightLink" href="#">Travel with Children</a>
+                                </li>
+                                <li><button id="btnVacations">Select vacations</button></li>
+                            </ol>
+                        </div>
+                        <div id="listButtons" class="listButtons inlineBlock">
+                            <ol>
+                                <li style="background-color:#FF0072">Vacations</li>
+                                <li style="background-color:#570027"><div>Hotel</div></li>
+                                <li style="background-color:#8F0040"><div>Activities</div></li>
+                                <li style="background-color:#570027"><div>[Car to come]</div></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="subheadArea">Subhead Area</div>
+        <div id="subheadArea">
+            <h3>Subhead Area</h3>
+            <div id="frequentFlyer">
+                <img src="img/1.jpg">
+                <p>Some text lead in</p>
+                <p>Followed by some text description. The image and the text portion will all be one image.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div id="corporateCustomres">
+                <img src="img/2.jpg">
+                <p>Some text lead in</p>
+                <p>Followed by some text description. The image and the text portion will all be one image.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div id="travelAgencies">
+                <img src="img/4.jpg">
+                <p>Some text lead in</p>
+                <p>Followed by some text description. The image and the text portion will all be one image.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
     </main>
     <footer></footer>
 </body>
