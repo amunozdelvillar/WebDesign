@@ -1,5 +1,5 @@
 body{
-    font-family:"Times New Roman", sans-serif;
+    font-family:sans-serif;
     margin: 0;
 }
 /***** HEADER *****/
@@ -56,10 +56,15 @@ a.breadCrumb:hover {
 }
 
 /*    Placeholder color*/
-#vacationForm input::-webkit-input-placeholder,input,select{
+#vacationForm input::-webkit-input-placeholder{
     color:#E800B2;
     margin-bottom: 0em;
     margin-top:0em;
+}
+
+#vacationForm input,select {
+    color:#E800B2;
+    font-size: 0.8em;
 }
 
 
@@ -131,7 +136,81 @@ div li {
 fieldset {
     border: 0;
 }
+/***** SUBHEAD AREA *****/
+#subheadArea {
+    margin: 0 100px 0 100px;
+    text-align: center;
+}
+#subheadArea>div{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 2em;
 
+}
+
+#subheadArea>div>img {
+    margin :2px;
+}
+
+#subheadArea>div>p {
+    font-size: 0.6em;
+    margin: 0px
+}
+
+#subheadArea>div>h6 {
+    margin: 0px 5px 2px 0px;
+    text-align: left;
+}
+
+#subheadArea>div>a {
+    font-size: 0.6em;
+}
+
+#subheadArea h3:first-child {
+    position:relative;
+    right:290px;
+    margin: 10px 0 10px 0;
+    color: #656565;
+}
+
+/***** FOOTER *****/
+
+footer {
+    background-image: url('img/footer.png');
+    background-repeat: repeat-x;
+}
+
+footer div:first-child {
+    
+    padding: 0.5em 0 1em 10em;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+footer>div>div {
+    display:inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+footer>div>p:first-child{
+    
+    padding: 0 0 0 5em;
+    color:#FF47FB;
+    font-size: 0.6em;
+}
+
+footer>div>div>a {
+    color:white;
+    text-decoration: none;
+    font-size: 0.60em;
+    display: block;
+    
+    padding: 0 5em 0.5em 5em;
+}
 
 
 /***** SPECIFIC *****/
@@ -144,8 +223,10 @@ fieldset {
 #topContainer{
     background-image: url("img/bus.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     margin: 0 auto;
+    
 }
 
 /***** GENERIC *****/
@@ -164,6 +245,10 @@ div.trans-black {
 
 .baseText {
     font-size: 1em;
+}
+
+.textXs {
+    font-size: 0.60em;
 }
 
 .textS {
@@ -206,7 +291,12 @@ div.trans-black {
     font-size: 0.75em;
 }
 
+
 .purpleText {
     color: #E800B2;
     background-color: #ffffff;
+}
+
+.no-underline {
+    text-decoration: none;
 }
